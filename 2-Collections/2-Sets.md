@@ -36,6 +36,8 @@ for genre in favoriteGenres.sorted() {
 // Rock
 ```
 
+Eleman eklemek için insert kullanılır.
+
 ## Setlerde kesişim
 
 <img src="https://docs.swift.org/swift-book/images/setVennDiagram~dark@2x.png" height="400" width="400">

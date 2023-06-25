@@ -1,6 +1,6 @@
 ## Dictionaries
 
-Swift'te Dictionaryler key-value çiftleri şeklinde tanımlanır. Dictionarylerin keyleri ve valueleri aynı türden olmak zorunda değildir. Dictionarylerin içerisindeki keyler unique olmak zorundadır. Dictionarylerin içerisindeki valueler unique olmak zorunda değildir.
+Swift'te Dictionaryler key-value çiftleri şeklinde tanımlanır. Dictionarylerin keyleri ve valueleri aynı türden olmak zorunda değildir. Dictionarylerin içerisindeki keyler unique olmak zorundadır. Dictionarylerin içerisindeki valueler unique olmak zorunda değildir. Dictionarylerde her zaman value'lar optional olarak tutulur.
 
 Boş bir dictionary oluşturma:
 
