@@ -2,7 +2,7 @@
 
 İşletim sistemi, platform ve derleme koşullarına göre kodun çalıştırılmasını sağlar.
 
-```
+```swift
 @available(macOS 10.12, *)
 struct ColorPreference {
     var bestColor = "blue"
@@ -18,7 +18,8 @@ func chooseBestColor() -> String {
 }
 
 ```
-```
+
+```swift
 if #available(iOS 10, macOS 10.12, *) {
     // Use iOS 10 APIs on iOS, and use macOS 10.12 APIs on macOS
 } else {
@@ -29,7 +30,7 @@ if #available(iOS 10, macOS 10.12, *) {
 
 Ters kontrolde mümükün:
 
-```
+```swift
 if #available(iOS 10, *) {
 } else {
     // Fallback code

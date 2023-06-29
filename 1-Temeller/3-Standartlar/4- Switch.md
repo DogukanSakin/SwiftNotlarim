@@ -5,7 +5,7 @@ Swift'te switch kullanırken break gerektirmeden ilk işleşme sağlandığı an
 
 Birden fazla kontrol için virgül kullanılabilir.
 
-```
+```swift
 let anotherCharacter: Character = "a"
 switch anotherCharacter {
 case "a", "A":
@@ -18,7 +18,7 @@ default:
 
 Swift'te switch içerisinde aralık eşleştirme mevcuttur.
 
-```
+```swift
 et approximateCount = 62
 let countedThings = "moons orbiting Saturn"
 let naturalCount: String
@@ -42,7 +42,7 @@ print("There are \(naturalCount) \(countedThings).")
 
 Switch'ler touples ile beraberde kullanılabilir ve aşama aşama eşleştirme yapılabilir. Ayrıca _ ile eşleşmeyen değerler için default değer belirlenebilir.
 
-```
+```swift
 let somePoint = (1, 1)
 switch somePoint {
 case (0, 0):
@@ -62,7 +62,7 @@ default:
 
 Switch case'de where sorgusu da kullanılabilir.
 
-```
+```swift
 let yetAnotherPoint = (1, -1)
 switch yetAnotherPoint {
 case let (x, y) where x == y:
@@ -79,7 +79,7 @@ case let (x, y):
 
 Switch case içerisinde değerlerin atanması için value bindings kullanılabilir.
 
-```
+```swift
 let yetAnotherPoint = (2, 0)
 switch yetAnotherPoint {
 case (let distance, 0), (0, let distance):
@@ -94,7 +94,7 @@ default:
 
 Normalde swift switch case'de bir case'in sonunda break kullanılmazsa otomatik olarak break eklenir. Ancak bazen birden fazla case'in aynı kodu çalıştırması gerekebilir. Bu durumda fallthrough kullanılabilir.
 
-```
+```swift
 let character: Character = "a"
 
 switch character {

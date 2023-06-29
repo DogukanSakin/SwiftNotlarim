@@ -8,11 +8,11 @@ Burada bitlik tanımlamalar işaretli ve işaretsiz olarak ikiye ayrılır.
 
 Örneğin Int8 için:
 
-```
+```swift
 let myInt : Int8 = 120 --> bu değişkenin değer aralığı -128 ile 127 arasındadır yani negatif değer alabilir
 ```
 
-```
+```swift
 let myInt : UInt8 = 120 -> bu değişken ise negatif değer alamaz. Aralığı 0 ile 255'tir
 ```
 
@@ -24,6 +24,6 @@ Integer'da değişken tanımlamasından sonra değer aralığının max ve minin
 
 Örneğin:
 
-```
+```swift
 let myInt = Int8.max -> Int8'nin max değeri atanır.
 ```

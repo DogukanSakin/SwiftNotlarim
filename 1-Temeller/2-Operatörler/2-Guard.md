@@ -6,7 +6,7 @@ Guard ifadesi, bir koşulu değerlendirir ve koşulun sağlanmadığı durumlard
 
 Guard ifadesi, aynı zamanda değerleri bir opsiyonel bağlamadan çıkarmak veya unwrap yapmak için de kullanılabilir. Bir değerin nil olup olmadığını kontrol eder ve nil ise else bloğundaki kodu çalıştırır.
 
-```
+```swift
 func processUser(username: String?, age: Int?) {
     guard let username = username else {
         print("Kullanıcı adı geçersiz.")

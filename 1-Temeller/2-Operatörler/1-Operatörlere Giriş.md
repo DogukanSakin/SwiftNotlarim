@@ -29,7 +29,7 @@ Binary operatör, iki operand üzerinde işlem yapar. Bu operatörlerin her biri
 
 Ternary operatör, üç operand üzerinde işlem yapar ve bir koşula dayanarak sonuç üretir. 
 
-```
+```swift
 let sayı = 10
 let sonuç = sayı > 5 ? "Büyük" : "Küçük"
 ```
@@ -41,7 +41,7 @@ Birden fazla değer aynı anda atanabilir.
 
 Örneğin:
 
-```
+```swift
 let (x, y) = (1, 2)
 ```
 
@@ -49,7 +49,7 @@ let (x, y) = (1, 2)
 
 Nil-Coalescing operatörü, nil olmayan bir değer döndürür. Eğer değer nil ise, varsayılan değeri döndürür.
 
-```
+```swift
 let defaultColorName = "red"
 var userDefinedColorName: String? // default değeri nil
 var colorNameToUse = userDefinedColorName ?? defaultColorName
@@ -59,7 +59,7 @@ var colorNameToUse = userDefinedColorName ?? defaultColorName
 
 Closed Range operatörü, a'dan b'ye kadar olan tüm değerleri içerir.
 
-```
+```swift
 for index in 1...5 {
     print("\(index) times 5 is \(index * 5)")
 }
@@ -69,7 +69,7 @@ for index in 1...5 {
 
 Half-Open Range operatörü, a'dan b'ye kadar olan tüm değerleri içerir. Ancak b değerini içermez.
 
-```
+```swift
 let names = ["Anna", "Alex", "Brian", "Jack"]
 let count = names.count
 for i in 0..<count {
@@ -81,7 +81,7 @@ for i in 0..<count {
 
 One-Sided Range operatörü, a'dan sonraki tüm değerleri içerir. 
 
-```
+```swift
 let names = ["Anna", "Alex", "Brian", "Jack"]
 for name in names[2...] {
     print(name)
@@ -90,7 +90,7 @@ for name in names[2...] {
 
 One-Sided Range operatörü, a'ya kadar olan tüm değerleri içerir.
 
-```
+```swift
 let names = ["Anna", "Alex", "Brian", "Jack"]
 for name in names[...2] {
     print(name)

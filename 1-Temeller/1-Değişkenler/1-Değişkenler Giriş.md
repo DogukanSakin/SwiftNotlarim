@@ -40,7 +40,7 @@ var d = 5.6 // Türü double -- Float olmasını istersek başta türünü belir
 
 - Bir türü başka bir türe dönüştürürken muhakkak yeni değişken tanımlanmalı ve işlem yapabilmek için aynı türde olmalı.
 
-```
+```swift
 let twoThousand: UInt16 = 2_000
 let one: UInt8 = 1
 let twoThousandAndOne = twoThousand + UInt16(one)

@@ -2,7 +2,7 @@
 
 Multiline için:
 
-```
+```swift
 let quotation = """
 The White Rabbit put on his spectacles.  "Where shall I begin,
 please your Majesty?" he asked.
@@ -11,7 +11,7 @@ please your Majesty?" he asked.
 
 Kodu kolay okunabilir hale getirmek için:
 
-```
+```swift
 let softWrappedQuotation = """
 The White Rabbit put on his spectacles.  "Where shall I begin, \
 please your Majesty?" he asked.
@@ -24,7 +24,7 @@ Swift'te bir karakter için değişken oluşturulabilir.
 
 Örneğin:
 
-```
+```swift
 let exclamationMark: Character = "!"
 ```
 
@@ -32,7 +32,7 @@ Bir string array'inden string oluşturulabilir benzer şekilde bir string'te ite
 
 Örneğin:
 
-```
+```swift
 let catCharacters: [Character] = ["C", "a", "t", "!", "?"]
 let catString = String(catCharacters)
 print(catString)
@@ -42,7 +42,7 @@ print(catString)
 
 ## Kaçış Karakterleri
 
-```
+```swift
 let wiseWords = "\"Imagination is more important than knowledge\" - Einstein"
 let dollarSign = "\u{24}"        // $,  Unicode scalar U+0024
 let blackHeart = "\u{2665}"      // ♥,  Unicode scalar U+2665
@@ -51,7 +51,7 @@ let sparklingHeart = "\u{1F496}" // 💖, Unicode scalar U+1F496
 
 - Burada ek olarak özel karakterler için # kullanılabilir. Örneğin:
 
-```
+```swift
 let filePath = #"C:\Users\Username\Documents\"#
 print(filePath) // "C:\Users\Username\Documents\"
 ```
@@ -59,7 +59,7 @@ print(filePath) // "C:\Users\Username\Documents\"
 
 ## Stringlerde Indexler
 
-```
+```swift
 let greeting = "Guten Tag!"
 greeting[greeting.startIndex]
 // G
@@ -71,16 +71,17 @@ let index = greeting.index(greeting.startIndex, offsetBy: 7)
 greeting[index]
 // a
 ```
+
 Burada endIndex'e ve endIndex'in sonrasına erişmek string range'inden çıkmak olduğu için hata verir.
 
-```
+```swift
 greeting[greeting.endIndex] // Error
 greeting.index(after: greeting.endIndex) // Error
 ```
 
 ## Stringlerde insert ve remove
 
-```
+```swift
 var welcome = "hello"
 welcome.insert("!", at: welcome.endIndex)
 // welcome now equals "hello!"
@@ -97,7 +98,7 @@ welcome.removeSubrange(range)
 
 Substringler stringlerden farklı olarak orjinal stringin bir kısmını tutar. Bu sayede orjinal stringin kopyası oluşturulmaz. Substringler bellekte ya orjinal string'in bellekteki yerinde ya da başka bir substring için ayrılan bellek alanında tutulur. Substring'leri uzun süreki bellekte saklamak için işlem sonrası yeni bir string değişken olarak tanımlanmalıdırlar.
 
-```
+```swift
 let greeting = "Hello, world!"
 let index = greeting.firstIndex(of: ",") ?? greeting.endIndex
 let beginning = greeting[..<index]
@@ -113,7 +114,7 @@ let newString = String(beginning)
 
 Stringlerin içeriği eşit olduğu sürece eşittirler.
 
-```
+```swift
 let quotation = "We're a lot alike, you and I."
 let sameQuotation = "We're a lot alike, you and I."
 if quotation == sameQuotation {
@@ -125,7 +126,7 @@ if quotation == sameQuotation {
 - hasPrefix ve hasSuffix ile stringlerin başlangıç ve bitişlerini kontrol edebiliriz.
 
 
-```
+```swift
 let romeoAndJuliet = [
     "Act 1 Scene 1: Verona, A public place",
     "Act 1 Scene 2: Capulet's mansion",

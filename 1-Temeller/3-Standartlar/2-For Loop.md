@@ -2,7 +2,7 @@
 
 Key ve value'a göre iterasyon örneği:
 
-```
+```swift
 let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
 for (animalName, legCount) in numberOfLegs {
     print("\(animalName)s have \(legCount) legs")
@@ -11,7 +11,7 @@ for (animalName, legCount) in numberOfLegs {
 
 Aralık olarak iterasyon:
 
-```
+```swift
 for index in 1...5 {
     print("\(index) times 5 is \(index * 5)")
 }
@@ -24,7 +24,7 @@ for index in 1...5 {
 
 İndex kullanılmayacaksa tanımlanmayabilir:
 
-```
+```swift
 let base = 3
 let power = 10
 var answer = 1
@@ -37,7 +37,7 @@ print("\(base) to the power of \(power) is \(answer)")
 
 ## For Loop'ta Value Binding
 
-```
+```swift
 let numbers = [1, 2, 3, 4, 5]
 
 for case let number in numbers where number % 2 == 0 {

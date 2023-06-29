@@ -4,7 +4,7 @@ Swift'te tür dönüştürebilmek için doğrudan tür adı ve parantezler kulla
 
 Örneğin Int bir değeri Double'a dönüştürmek için:
 
-```
+```swift
 let three = 3
 let pointOneFourOneFiveNine = 0.14159
 let pi = Double(three) + pointOneFourOneFiveNine
@@ -16,7 +16,7 @@ Swift'te istersek kendimizde bir tür oluşturup buna isim verebiliriz. Buna typ
 
 Örneğin:
 
-```
+```swift
 typealias AudioSample = UInt16
 var maxAmplitudeFound = AudioSample.min
 ```

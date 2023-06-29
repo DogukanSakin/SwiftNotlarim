@@ -6,13 +6,13 @@ Nullable ifadesi olarakta değerlendirilen bu ifade özetle bir değişken için
 
 Örneğin
 
-```
+```swift
 var age : Int
 ```
 
 Tanımlamasını yaptığımızı düşünelim. Burada age'i print etmek istesek initilaze olmadığı için hata alacağız ancak değişkeni optional yaparsak
 
-```
+```swift
 var age : Int?
 ```
 
@@ -20,7 +20,7 @@ Ve bu halde print etmek istersek nil sonucunu görürüz. Bu kullanımda herhang
 
 Optional bir değeri derleyiciye nil gelmeyeceğini garanti etmek için ! kullanılır.
 
-```
+```swift
 print(age!)
 ```
 
