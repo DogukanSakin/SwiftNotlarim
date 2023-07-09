@@ -1,8 +1,15 @@
+<div align='center'>
+<img src='https://github.com/DogukanSakin/SwiftNotlarim/assets/86911611/ee668cc0-ab0d-42ed-bdf8-8167ffac3b66' height='200' width='200'>
+</div>
+
+
 # Swift Notlarım
 
 Merhaba, hoş geldiniz. Bu repo'da Swift öğrenirken geriye dönüp bakabilmek amacıyla notlarımı tutuyorum. Başta sadece kendime özel olarak dizayn ettiğim bu notları daha sonrasında sizlerle de paylaşmak istedim. Notların ağırlığı Swift'in resmi dökümantasyonundan yola çıkılarak hazırlanmış olup ek olarak merak edip araştırdığım konuları da içermektedir. Umarım sizlere faydası dokunur.
 
 Şu konuyu da söylemeden geçmeyeyim. Notların bütününü tamamen kendime göre dizayn ettim. Yani aradığınız her bilgiyi bulamayabilirsiniz. Zaten öğrenmek istediğiniz spesifik bir konu olursa da resmi dökümantasyonu okumanızı tavsiye ederim. Bu notlar sadece bir rehber niteliğindedir.
+
+
 
 ## İçindekiler
 
