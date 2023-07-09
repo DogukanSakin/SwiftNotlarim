@@ -1,4 +1,4 @@
-## Access Control
+## Access Control
 
 OOP Temellerinden biri olan Encaupsulation, bir nesnenin içindeki verilerin ve fonksiyonların dışarıdan erişilebilir olmasını engelleyen bir kavramdır. Bu kavramın uygulanması için de erişim belirleyicileri kullanılır. Erişim belirleyicileri, bir nesnenin içindeki verilerin ve fonksiyonların dışarıdan erişilebilir olmasını engeller. Bu belirleyiciler, nesnenin içindeki verilerin ve fonksiyonların hangi durumlarda dışarıdan erişilebilir olacağını belirler. Bu başlık altında da Swift dilinde bulunan erişim belirleyicileri incelenecektir.
 
