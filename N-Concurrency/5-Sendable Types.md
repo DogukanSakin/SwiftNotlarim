@@ -1,4 +1,4 @@
-## Sendable Types
+## Sendable Types
 
 Swift 5.5 ile gelen bu özellik asenkron işlemler arasında güvenli bir şekilde veri paylaşımını sağlamak için kullanılan türlerdir.
 
