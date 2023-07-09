@@ -1,4 +1,4 @@
-## Delegation
+## Delegation
 
 Delegation tasarım deseni, nesneler arasındaki iletişimi kolaylaştıran ve yeniden kullanılabilirlik sağlayan bir yöntemdir. Delegation, bir nesnenin belirli görevlerini veya olaylarını başka bir nesneye devretmek için kullanılır. Bu desen, bir nesnenin başka bir nesne adına bazı görevleri yerine getirmesine izin verir.
 
