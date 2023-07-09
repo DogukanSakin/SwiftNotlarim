@@ -1,7 +1,6 @@
 <div align='center'>
-<img src='https://github.com/DogukanSakin/SwiftNotlarim/assets/86911611/ee668cc0-ab0d-42ed-bdf8-8167ffac3b66' height='200' width='200'>
+<img src='https://github.com/DogukanSakin/SwiftNotlarim/assets/86911611/95dd6ce0-a158-49b3-8725-e88193211813' height='200' width='200'>
 </div>
-
 
 # Swift Notlarım
 
