@@ -14,7 +14,7 @@ Değişebilenleri tanımlarken var kullanılır.
 
 Örneğin:
 
-```
+```swift
 var d1: Int = 6
 ```
 
@@ -22,7 +22,7 @@ Sabitler tanımlarken let kullanılır.
 
 Örneğin:
 
-```
+```swift
 let pi: Float = 3.14
 ```
 
@@ -32,7 +32,7 @@ let pi: Float = 3.14
 
 Örneğin:
 
-```
+```swift
 var d = 5.6 // Türü double -- Float olmasını istersek başta türünü belirtmeliyiz.
 ```
 
