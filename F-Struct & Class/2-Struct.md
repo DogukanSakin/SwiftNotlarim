@@ -1,4 +1,4 @@
-## Struct
+## Struct
 
 Swift'te Sturct'lar Class ile aynı amaç doğrultusunda kullanılırlar. Ancak Struct bazı özellikleriyle Class'lardan ayrılmıştır.
 
