@@ -14,7 +14,7 @@ Merhaba, hoş geldiniz. Bu repo'da Swift öğrenirken geriye dönüp bakabilmek 
 
 - [Temeller](https://github.com/DogukanSakin/SwiftNotlarim/tree/main/A-Temeller)
   - [Değişkenler](https://github.com/DogukanSakin/SwiftNotlarim/tree/main/A-Temeller/1-De%C4%9Fi%C5%9Fkenler)
-    - [Değişkenlere Giriş](https://github.com/DogukanSakin/SwiftNotlarim/tree/main/A-Temeller/1-De%C4%9Fi%C5%9Fkenler) 
+    - [Değişkenlere Giriş](https://github.com/DogukanSakin/SwiftNotlarim/blob/main/A-Temeller/1-De%C4%9Fi%C5%9Fkenler/1-De%C4%9Fi%C5%9Fkenler%20Giri%C5%9F.md) 
     - [Integer](https://github.com/DogukanSakin/SwiftNotlarim/blob/main/A-Temeller/1-De%C4%9Fi%C5%9Fkenler/2-Integer.md) 
     - [Tür Dönüşümleri](https://github.com/DogukanSakin/SwiftNotlarim/blob/main/A-Temeller/1-De%C4%9Fi%C5%9Fkenler/3-T%C3%BCr%20d%C3%B6n%C3%BC%C5%9F%C3%BCmleri.md)
     - [Touples](https://github.com/DogukanSakin/SwiftNotlarim/blob/main/A-Temeller/1-De%C4%9Fi%C5%9Fkenler/4-Touples.md)
