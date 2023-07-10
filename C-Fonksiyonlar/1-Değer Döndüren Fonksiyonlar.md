@@ -1,4 +1,4 @@
-## Geri Değer Döndüren Fonksiyonlar
+## Geri Değer Döndüren Fonksiyonlar
 
 Fonksiyonlar geri değer döndürebilir. Bir fonksiyonun geri döndürdüğü değer fonksiyonun sonundaki `->` işaretinden sonra yazılır. 
 
