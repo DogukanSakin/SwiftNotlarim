@@ -8,7 +8,7 @@ Merhaba, hoş geldiniz. Bu repo'da Swift öğrenirken geriye dönüp bakabilmek 
 
 Şu konuyu da söylemeden geçmeyeyim. Notların bütününü tamamen kendime göre dizayn ettim. Yani aradığınız her bilgiyi bulamayabilirsiniz. Zaten öğrenmek istediğiniz spesifik bir konu olursa da resmi dökümantasyonu okumanızı tavsiye ederim. Bu notlar sadece bir rehber niteliğindedir.
 
-
+Eğer mobil uygulama geliştirmekle ilgileniyorsanız, sizin gibi Swift/iOS Developer'lar ile buluşabileceğiniz bir topluluk inşa ediyoruz. Farklı alanlardaki mobil geliştiriciler ile bir araya gelebilir, sorularınızı sorabilir ve network kazanabilirsiniz.  [Topluluk Discord sunucumuza katılmak için tıklayın.](https://discord.gg/2Zp9DzVYjx)
 
 ## İçindekiler
 
