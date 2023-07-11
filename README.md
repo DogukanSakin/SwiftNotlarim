@@ -8,6 +8,7 @@ Merhaba, hoş geldiniz. Bu repo'da Swift öğrenirken geriye dönüp bakabilmek 
 
 Şu konuyu da söylemeden geçmeyeyim. Notların bütününü tamamen kendime göre dizayn ettim. Yani aradığınız her bilgiyi bulamayabilirsiniz. Zaten öğrenmek istediğiniz spesifik bir konu olursa da resmi dökümantasyonu okumanızı tavsiye ederim. Bu notlar sadece bir rehber niteliğindedir.
 
+Eğer iOS Development ile ilgilenip sizin gibi Swift/iOS Developer'lar ile buluşmak isterseniz mobil uygulama geliştiricilerinin bir araya geldiği topluluğumuz olan [Mobile Dev TR'nin Discord sunucusuna katılabilirsiniz.](https://discord.gg/2Zp9DzVYjx) 
 
 
 ## İçindekiler
